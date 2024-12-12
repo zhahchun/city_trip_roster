@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>City Trip Roster Recommendation</title>
+
+    <link rel="shortcut icon" type="x-icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/recommendations.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">City Trip Roster</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="./Index.html">Home</a>
+                    </li>
+
+                    <!-- <li class="nav-link">
+                        <a href="../Login.html">Login</a>
+                    </li> -->
+                    <li class="nav-link">
+                        <a href="./recommendations.html">Recommendation</a>
+                    </li>
+                    <!-- <li class="nav-link">
+                        <a href="../review.html">Your Review</a>
+                    </li> -->
+                    <!-- <li class="nav-link">
+                        <a href="../Contact.html">Contact Us</a>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+        <div class="container">
+
+            <h3>Our Recommendations</h3>
+
+            <!-- <h5>Taipei</h5> -->
+
+            <div class="col s12 m5">
+                <h2 class="header" style="font-size: 30px;">Taipei</h2>
+                <div class="card horizontal hoverable">
+                    <div class="card-image">
+                        <img src="./images/taipei101_02.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p><b>Taipei 101</b></p>
+                            <p>A global architectural icon, stands tall as the heart of Taipei, blending modern design with traditional Taiwanese elements. Once the world's tallest building, this skyscraper offers breathtaking views from its observation deck, reaching the cityscape and beyond. Visitors can also explore its luxury shopping mall, fine dining restaurants, and marvel at its innovative engineering, including the massive tuned mass damper that stabilizes the building.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <script>
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p>Discover City Trips, your ultimate guide to exploring the best of urban adventures, offering curated itineraries and insider tips for unforgettable experiences in cities around the world.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2024 All rights reserved | made by Miss Chun
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
