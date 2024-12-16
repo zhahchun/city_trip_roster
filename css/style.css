@@ -174,7 +174,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../images/Background-image.png');
+    background: url('../images/home_background01.png');
     background-size: cover;
     height: 50vh;
     display: flex;
@@ -209,7 +209,7 @@ main .site-title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('../images/Abract01.png');
+    background: url('../images/home_background02.png');
     background-repeat: no-repeat;
     background-position: right;
     height: 70vh;
